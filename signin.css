@@ -1,0 +1,87 @@
+body{
+	font-family: sans-serif;
+	background-image: url(login.jpg);
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: rgb(236, 211, 211);
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+.judul{
+	text-shadow: 20px 10px 5px #232323;	
+
+	animation: judul-animation 1s steps(5, start) infinite;
+    
+    -webkit-animation: judul-animation 1s steps(5, start) infinite;
+}
+
+@keyframes judul-animation {
+    
+    to {
+    
+    visibility: hidden;
+    
+    }
+    
+    }
+    
+    @-webkit-keyframes judul-animation {
+    
+    to {
+    
+    visibility: hidden;
+    
+    }
+    
+    }
+ 
+/*
+nilai 0 pertama adalah nilai tinggi rendah nya bayangan
+nilai 0 kedua adalah nilai untuk mengatur rata kiri kanan bayangan
+nilai 20 adalah nilai untuk mengatur ketebalan bayangan
+dan yang terakhir adalah mengatur warna bayangan
+*/
